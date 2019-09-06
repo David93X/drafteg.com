@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="keywords" content="Design, Graphic, Branding, UI/UX, Web">
-    <meta name="description" content="A design studio based in Cairo, Egypt">
+    <meta name="description" content="Design studio based in Cairo, Egypt">
     <title>draft | design studio</title>
     <link rel=stylesheet href=styles.css>
     <link href="https://fonts.googleapis.com/css?family=Sintony:400,700&display=swap" rel="stylesheet">
@@ -17,23 +17,20 @@
 <body>
     <!-- Navbar -->
     <nav>
-        <img src="images/draft-logomark-black.png" alt="Draft Design Studio" height="48px">
-        <div class="navbar">
-            <a href="#about us">ABOUT US</a> |
+            <img id=logo src="images/draft-logomark-black.png" alt="Draft Design Studio Logo" height="48px">
             <a href="#services">SERVICES</a> |
             <a href="#portfolio">PORTFOLIO</a> |
-            <a href="#contact us">CONTACT US</a> |
-        </div>
+            <a href="#contact us">CONTACT US</a>
     </nav>
 
     <!-- Header -->
     <header>
         <h1>DRAFT DESIGN STUDIO</h1>
-        <p>sketching your ideas</p>
+        <p id="slogan">sketching your ideas</p>
         <br>
-        <p>We are asmall design studio based in Cairo,c Egypt</p>
-        <p>We specialize in branding and brand identity creation</p>
-        <button type="button" onclick="window.location.href = '#contact us'">CONTACT US</button>
+        <p>We are a small design studio based in Cairo, Egypt</p>
+        <p>We specialize in branding and brand identity creation.</p>
+        <button class="cta" type="button" onclick="window.location.href = '#contact us'">CONTACT US</button>
     </header>
 
     <br>
@@ -48,40 +45,31 @@
     </div>
 
     <!-- PORTFOLIO -->
-    <div id="portfolio">
+    <div class="gallery" id="portfolio">
         <h2>PORTFOLIO</h2>
-        <table>
-            <tr>
-                <td><img src="images/draft-logomark-emblem-black.png" width="120px"></td>
-                <td><img src="/"></td>
-                <td><img src="/"></td>
-            </tr>
-            <tr>
-                <td><img src="/"></td>
-                <td><img src="/"></td>
-                <td><img src="/"></td>
-            </tr>
-        </table>
+        <img src="images/draft-gallery-placeholder.png">
     </div>
 
     <!-- ABOUT US -->
-    <div id="about us">
-        <h2>ABOUT US</h2>
-        <p>We are a small design studio based in Cairo, Egypt</p>
-        <p>We specialize in branding</p>
-    </div>
 
     <!-- CONTACT US -->
     <div id="contact us">
         <h2>CONTACT US</h2>
+        <p>Let's get in touch, Send us a message</p>
         <form name=contact-form method="POST" data-netlify="true">
-            Name <input type="text" name="name" required>
+            <label for="name">
+                Name <input type="text" id="name" name="name" required>
+            </label>
             <br>
-            Email <input type="text" name="email" required>
+            <label for="email">
+                Email <input type="email" id="email" name="email" required>
+            </label>
             <br>
-            Message <input type="text" name="message" required>
+            <label for="message">
+                Message <textarea id="message" name="message" required></textarea>
+            </label>
             <br>
-            <input type="submit" value="Submit">
+            <input class="submit" type="submit" id="submit" value="Submit">
         </form>
     </div>
 </body>

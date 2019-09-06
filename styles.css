@@ -1,21 +1,34 @@
+/* {
+    padding: 0;
+    margin: 0;
+}*/
+
 html {
     font-family: 'Sintony', sans-serif;
     background-color: #f8f8f8;
     background-image: url(images/draft-background.png);
-    background-position: right top;
+    background-position-x: right;
+    background-position-y: 5%;
     background-size: 75%;
     background-repeat: no-repeat;
 }
 
 nav {
-    background: #ffffff;
+    display: block;
     position: fixed;
     width: 100%;
+    height: 48px;
     top: 0%;
+    padding: 12px;
+    text-align: center;
+
+    background: #ffffff;
+    box-shadow: 0px 2px 2px #eeeeee;
+    
 }
 
 header {
-    padding: 20% 10% 10% 10%;
+    padding: 25% 5% 10% 5%;
 }
 
 button {
@@ -58,4 +71,54 @@ table {
 
 td {
     background: #eeeeee;
+}
+
+a {
+    text-decoration: none;
+}
+
+#slogan {
+    letter-spacing: 0.5em;
+}
+
+button {
+    display: inline-block;
+    width: 200px;
+    height: 48px;
+    background-color: #111111;
+    color: white;
+    border: none;
+    border-radius: 0.5em;
+}
+
+#logo {
+    display: block;
+    position: fixed;
+    left: 10%;
+}
+
+form {
+    display: inline-block;
+    align-items: center;
+    width: 25%;
+    align-content: center;
+}
+
+input, textarea {
+    width: 300px;
+}
+
+.submit {
+    height: 48px;
+    
+    background-color: #111111;
+    color: white;
+    border: none;
+    border-radius: 0.5em;
+}
+
+.gallery {
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    width: 100%;
 }
