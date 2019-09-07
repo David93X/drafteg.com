@@ -17,7 +17,7 @@
 <body>
     <!-- Navbar -->
     <nav>
-            <img id=logo src="images/draft-logomark-black.png" alt="Draft Design Studio Logo" height="48px">
+            <img id=logo src="images/draft-logomark-black.png" alt="Draft Design Studio Logo" height="32px">
             <a href="#services">SERVICES</a> |
             <a href="#portfolio">PORTFOLIO</a> |
             <a href="#contact us">CONTACT US</a>
@@ -33,27 +33,33 @@
         <button class="cta" type="button" onclick="window.location.href = '#contact us'">CONTACT US</button>
     </header>
 
-    <br>
-    <br>
+    <main>
 
     <!-- SERVICES -->
-    <div id="services">
+    <section id="services">
         <h2>SERVICES</h2>
         <p>Branding</p>
         <p>Web Design</p>
         <p>UI/UX Design</p>
-    </div>
+    </section>
 
     <!-- PORTFOLIO -->
-    <div class="gallery" id="portfolio">
+    <section id="portfolio">
         <h2>PORTFOLIO</h2>
-        <img src="images/draft-gallery-placeholder.png">
-    </div>
+        </div class="gallery">
+            <div><img src="images/draft-gallery-placeholder.png" width="200px"></div>
+            <div><img src="images/draft-gallery-placeholder.png" width="200px"></div>
+            <div><img src="images/draft-gallery-placeholder.png" width="200px"></div>
+            <div><img src="images/draft-gallery-placeholder.png" width="200px"></div>
+            <div><img src="images/draft-gallery-placeholder.png" width="200px"></div>
+            <div><img src="images/draft-gallery-placeholder.png" width="200px"></div>
+        </div>
+    </section>
 
     <!-- ABOUT US -->
 
     <!-- CONTACT US -->
-    <div id="contact us">
+    <section id="contact us">
         <h2>CONTACT US</h2>
         <p>Let's get in touch, Send us a message</p>
         <form name=contact-form method="POST" data-netlify="true">
@@ -66,14 +72,15 @@
             </label>
             <br>
             <label for="message">
-                Message <textarea id="message" name="message" required></textarea>
+                Message <textarea id="message" name="message" rows="4" required></textarea>
             </label>
             <br>
             <input class="submit" type="submit" id="submit" value="Submit">
         </form>
-    </div>
+    </section>
 </body>
 <br>
+</main>
 
 <!-- Footer -->
 <footer>
