@@ -11,22 +11,29 @@
     <link rel=stylesheet href=styles.css>
     <link href="https://fonts.googleapis.com/css?family=Sintony:400,700&display=swap" rel="stylesheet">
     <link rel="icon" href="images/draft-logomark-emblem-black.png">
-    <link rel="">
 </head>
 
 <body>
     <!-- Navbar -->
     <nav>
-            <img id=logo src="images/draft-logomark-black.png" alt="Draft Design Studio Logo" height="32px">
-            <a href="#services">SERVICES</a> |
-            <a href="#portfolio">PORTFOLIO</a> |
-            <a href="#contact us">CONTACT US</a>
+        <img id=logo src="images/draft-logomark-black.png" alt="Draft Design Studio Logo" height="32px">
+        <a href="#services">SERVICES</a> |
+        <a href="#portfolio">PORTFOLIO</a> |
+        <a href="#contact us">CONTACT US</a>
     </nav>
 
     <!-- Header -->
     <header>
         <h1>DRAFT DESIGN STUDIO</h1>
-        <p id="slogan">sketching your ideas</p>
+        <div class="slogan">sketching your
+            <div class="slogan-word">
+                <span>ideas</span>
+                <span>voice</span>
+                <span>dreams</span>
+                <span>bussiness</span>
+                <span>success</span>
+            </div>
+        </div>       
         <br>
         <p>We are a small design studio based in Cairo, Egypt</p>
         <p>We specialize in branding and brand identity creation.</p>
@@ -35,59 +42,59 @@
 
     <main>
 
-    <!-- SERVICES -->
-    <section id="services">
-        <h2>SERVICES</h2>
-        <p>Branding</p>
-        <p>Web Design</p>
-        <p>UI/UX Design</p>
-    </section>
+        <!-- SERVICES -->
+        <section id="services">
+            <h2>SERVICES</h2>
+            <p>Branding</p>
+            <p>Web Design</p>
+            <p>UI/UX Design</p>
+        </section>
 
-    <!-- PORTFOLIO -->
-    <section id="portfolio">
-        <h2>PORTFOLIO</h2>
-        </div class="gallery">
+        <!-- PORTFOLIO -->
+        <section id="portfolio">
+            <h2>PORTFOLIO</h2>
+            </div class="gallery">
             <div><img src="images/draft-gallery-placeholder.png" width="200px"></div>
             <div><img src="images/draft-gallery-placeholder.png" width="200px"></div>
             <div><img src="images/draft-gallery-placeholder.png" width="200px"></div>
             <div><img src="images/draft-gallery-placeholder.png" width="200px"></div>
             <div><img src="images/draft-gallery-placeholder.png" width="200px"></div>
             <div><img src="images/draft-gallery-placeholder.png" width="200px"></div>
-        </div>
-    </section>
+            </div>
+        </section>
 
-    <!-- ABOUT US -->
+        <!-- ABOUT US -->
 
-    <!-- CONTACT US -->
-    <section id="contact us">
-        <h2>CONTACT US</h2>
-        <p>Let's get in touch, Send us a message</p>
-        <form name=contact-form method="POST" data-netlify="true">
-            <label for="name">
-                Name <input type="text" id="name" name="name" required>
-            </label>
-            <br>
-            <label for="email">
-                Email <input type="email" id="email" name="email" required>
-            </label>
-            <br>
-            <label for="message">
-                Message <textarea id="message" name="message" rows="4" required></textarea>
-            </label>
-            <br>
-            <input class="submit" type="submit" id="submit" value="Submit">
-        </form>
-    </section>
+        <!-- CONTACT US -->
+        <section id="contact us">
+            <h2>CONTACT US</h2>
+            <p>Let's get in touch, Send us a message</p>
+            <form name=contact-form method="POST" data-netlify="true">
+                <label for="name">
+                    Name <input type="text" id="name" name="name" required>
+                </label>
+                <br>
+                <label for="email">
+                    Email <input type="email" id="email" name="email" required>
+                </label>
+                <br>
+                <label for="message">
+                    Message <textarea id="message" name="message" rows="4" required></textarea>
+                </label>
+                <br>
+                <input class="submit" type="submit" id="submit" value="Submit">
+            </form>
+        </section>
+    </main>
 </body>
 <br>
-</main>
 
 <!-- Footer -->
 <footer>
     <a href="https://www.facebook.com/drafteg/" target="_blank">FACEBOOK</a>
     <a href="https://www.instagram.com/draft.eg/" target="_blank">INSTAGRAM</a>
     <a href="https://www.linkedin.com/company/drafteg/" target="_blank">LINKEDIN</a>
-    <p>Copyrights reserved @drafteg</p>
+    <p>©2019 drafteg</p>
     <p>+20 127 323 8686</p>
 </footer>
 
