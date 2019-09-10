@@ -26,6 +26,12 @@ nav {
     background: #ffffff;
     box-shadow: 0px 2px 2px #eeeeee;
 }
+.nav-button:hover {
+    padding: 24px;
+}
+.nav-button:hover {
+    background-color: darkorange;
+}
 
 header {
     padding: 25% 5% 10% 5%;
@@ -44,8 +50,6 @@ main {
     align-items: center;
     text-align: center;
 }
-
-
 
 div.navbar {
     align-content: center;
@@ -68,22 +72,9 @@ p {
     font-size: 100%;
 }
 
-table {
-    align-content: center;
-    text-align: center;
-    align-items: center
-}
-
-td {
-    background: #eeeeee;
-}
-
 a {
     text-decoration: none;
-}
-
-#slogan {
-    letter-spacing: 0.5em;
+    color: inherit;
 }
 
 button {
@@ -146,9 +137,10 @@ input, textarea {
     margin: 10px;
 }
 
-/* SLOGAN ANIMATION*/
+/* SLOGAN */
 .slogan {
     position: absolute;
+    letter-spacing: 0.59em;
 }
 .slogan-word {
     display: inline-block;
