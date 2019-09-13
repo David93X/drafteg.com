@@ -38,7 +38,7 @@ nav {
     box-sizing: border-box;
     display: block;
     margin: 0%;
-    padding: 12px;
+    padding: 14px;
 }
 
 .nav-button:hover {
@@ -87,10 +87,6 @@ h1 {
 
 .slogan {
     letter-spacing: 0.45em;
-}
-
-h2 {
-    font-size: 
 }
 
 p {
@@ -179,9 +175,13 @@ input, textarea {
     max-width: 240px;
 }
 
+.services > div >img {
+    transform: scale(1);
+    transition: all 0.2s ease;
+}
+
 .services > div > img:hover {
-    transform: scale(1.2);
-    transition: all 0.2s ease-in-out;
+    transform: scale(1.1);
 }
 
 /* SLOGAN */
