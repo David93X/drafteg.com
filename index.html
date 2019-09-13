@@ -16,7 +16,7 @@
 <body>
     <!-- Navbar -->
     <nav>
-        <img id=logo src="images/draft-logomark-black.png" alt="Draft Design Studio Logo" height="32px">
+        <a id="logo" href="https://www.drafteg.com/"><img src="images/draft-logomark-black.png" alt="Draft Design Studio Logo" height="32px"></a>
         <a class="nav-button" href="#services">SERVICES</a> |
         <a class="nav-button" href="#portfolio">PORTFOLIO</a> |
         <a class="nav-button" href="#contact us">CONTACT US</a>
@@ -45,9 +45,24 @@
         <!-- SERVICES -->
         <section id="services">
             <h2>SERVICES</h2>
-            <p>Branding</p>
-            <p>Web Design</p>
-            <p>UI/UX Design</p>
+            <div class="services">
+                <div class="service" >
+                    <img src="/images/draft-services-branding.png" height="120px">
+                    <h3>Branding</h3>
+                    <p>We can help you create a visual identity that diffrentiate you from others</p>
+                </div>
+                <div class="service" >
+                    <img src="/images/draft-services-ui.png" height="120px">
+                    <h3>UI/UX</h3>
+                    <p>Start with a website that introduces your brand to the world</p>
+                </div>
+                <div class="service" >
+                    <img src="/images/draft-services-graphic-design-02.png" height="120px">
+                    <h3>Creative Design</h3>
+                    <p>Whether it's text, image, sound or video. deliver your message and engage customers</p>
+                </div>
+            </div>
+
         </section>
 
         <!-- PORTFOLIO -->
@@ -55,14 +70,14 @@
             <h2>PORTFOLIO</h2>
             <p>Here's a sample of our work</p>
             <div class="gallery">
-              <div><img src="images/raft-gallery-placeholder.png"></div>
-              <div><img src="images/raft-gallery-placeholder.png"></div>
-              <div><img src="images/raft-gallery-placeholder.png"></div>
-              <div><img src="images/raft-gallery-placeholder.png"></div>
-              <div><img src="images/raft-gallery-placeholder.png"></div>
-              <div><img src="images/raft-gallery-placeholder.png"></div>
-              <div><img src="images/raft-gallery-placeholder.png"></div>
-              <div><img src="images/raft-gallery-placeholder.png"></div>
+                <div><img src="images/raft-gallery-placeholder.png"></div>
+                <div><img src="images/raft-gallery-placeholder.png"></div>
+                <div><img src="images/raft-gallery-placeholder.png"></div>
+                <div><img src="images/raft-gallery-placeholder.png"></div>
+                <div><img src="images/raft-gallery-placeholder.png"></div>
+                <div><img src="images/raft-gallery-placeholder.png"></div>
+                <div><img src="images/raft-gallery-placeholder.png"></div>
+                <div><img src="images/raft-gallery-placeholder.png"></div>
             </div>
         </section>
 
@@ -83,7 +98,7 @@
                 </label>
                 <br>
                 <label for="message">
-                    Message <textarea id="message" name="message" rows="4" required></textarea>
+                    Message <textarea id="message" name="message" rows="5" required></textarea>
                 </label>
                 <br>
                 <input class="submit" type="submit" id="submit" value="Send">
@@ -95,9 +110,12 @@
 
 <!-- Footer -->
 <footer>
-    <a class="social" href="https://www.facebook.com/drafteg/" target="_blank"><img src="images/draft-facebook.svg" width="24px" title="Facebook"></a>
-    <a class="social" href="https://www.instagram.com/draft.eg/" target="_blank"><img src="images/draft-instagram.svg" width="24px" title="Instagram"></a>
-    <a class="social" href="https://www.linkedin.com/company/drafteg/" target="_blank"><img src="images/draft-linkedin.svg" width="24px" title="LinkedIn"></a>
+    <a class="social" href="https://www.facebook.com/drafteg/" target="_blank"><img src="images/draft-facebook.svg"
+            width="24px" title="Facebook"></a>
+    <a class="social" href="https://www.instagram.com/draft.eg/" target="_blank"><img src="images/draft-instagram.svg"
+            width="24px" title="Instagram"></a>
+    <a class="social" href="https://www.linkedin.com/company/drafteg/" target="_blank"><img
+            src="images/draft-linkedin.svg" width="24px" title="LinkedIn"></a>
     <p>©2019 drafteg</p>
     <p>+20 127 323 8686</p>
 </footer>
