@@ -13,6 +13,7 @@ html {
     background-position-y: 64px;
     background-size: 75%;
     background-repeat: no-repeat;
+    scroll-behavior: smooth;
 }
 
 nav {
