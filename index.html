@@ -100,7 +100,7 @@
             <h2>CONTACT US</h2>
             <p>Let's get in touch, Send us a message</p>
 
-            <form name=contact-form method="POST" data-netlify="true">
+            <form name=contact-form method="POST" data-netlify="true" data-netlify-recaptcha="true">
                 <label for="name">
                     Name <input type="text" id="name" name="name" required>
                 </label>
@@ -112,6 +112,8 @@
                 <label for="message">
                     Message <textarea id="message" name="message" rows="5" required></textarea>
                 </label>
+                <br>
+                <div data-netlify-recaptcha="true"></div>
                 <br>
                 <input class="submit" type="submit" id="submit" value="Send">
             </form>
